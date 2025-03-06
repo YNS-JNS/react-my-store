@@ -15,6 +15,7 @@
 .logo {
     color: #fff;
     font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
     text-decoration: none;
 }
 
@@ -24,6 +25,7 @@
 }
 
 .nav-links a {
+    font-family: "Poppins", sans-serif;
     color: #fff;
     text-decoration: none;
     padding: 0.5rem;
@@ -47,11 +49,11 @@
     width: 100%;
 }
 
-.active-link {
+.under-link {
     position: relative;
 }
 
-.active-link::after {
+.under-link::after {
     content: '';
     position: absolute;
     bottom: -2px;
@@ -69,4 +71,8 @@
 
 .nav-links a:hover::after {
     transform: scaleX(1);
+}
+
+.active-link {
+    color: #3498db !important;
 }
