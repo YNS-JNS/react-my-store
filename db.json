@@ -1,0 +1,14 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Ordinateur Portable",
+      "price": 799.99,
+      "description": "PC portable 15 pouces",
+      "category": "électronique",
+      "image": "https://via.placeholder.com/150",
+      "stock": 10
+    }
+  ],
+  "cart": []
+}
