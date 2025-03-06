@@ -2,6 +2,7 @@
 import { Routes, Route } from 'react-router-dom'
 // Styles section
 import './reset.css'
+import './global.css';
 // Components section
 import Navbar from './components/Navbar';
 // Pages section
