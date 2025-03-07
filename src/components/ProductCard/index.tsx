@@ -1,20 +1,34 @@
 import { Link } from "react-router-dom";
+import MyButton from "../widgets/MyButton";
 
 const ProductCard = () => {
   return (
-    <div className='product-card'>
-      <img src='' alt='' />
-      <div className='product-info'>
-        <h2>Product Name</h2>
-        <p>Price: $99.99</p>
-        <p>Product Description</p>
-        <div className='meta-info'>
-          <span>Category</span>
-          <span>Stock</span>
+    <>
+      {/* Card  */}
+      <div className="product-card">
+        {/* Image  */}
+        <div className="product-image">
+          <img src="" alt="product image" />
         </div>
-        <Link to='/products'>← Back to Product List</Link>
+        {/* Content  */}
+        <div className="product-content">
+          {/* Title  */}
+          <h2>Product name</h2>
+          {/* Price  */}
+          <div className="product-price-zone">
+            <span className="default-price">99$</span>
+            <div className="current-price">
+              <span className="sale-price">79$</span>
+              <span className="discount-percentage">20%</span>
+            </div>
+          </div>
+          {/* Buttons  */}
+          <MyButton $bgColor="red">
+            Ok
+          </MyButton>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

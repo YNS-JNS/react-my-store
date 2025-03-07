@@ -1,8 +1,11 @@
-import React from 'react'
+import './style.css'
+import ProductCard from '../../components/ProductCard'
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div className='home-page'>
+      <ProductCard/>
+    </div>
   )
 }
 
