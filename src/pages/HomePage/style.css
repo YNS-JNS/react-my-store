@@ -1,0 +1,9 @@
+.home-page {
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-color: #dff2fe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
